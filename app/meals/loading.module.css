@@ -1,0 +1,44 @@
+.containerLoading {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.loading {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #E95D38;
+	border-radius: 50%;
+	border-top: none;
+	animation: rotate 0.35s linear infinite;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.loadingText {
+	font-size: 20px;
+	color: #E95D38;
+	animation: colorLoading 1s linear infinite;
+}
+
+@keyframes colorLoading {
+	0% {
+		color: #E95D38;
+	}
+	50% {
+		color: #dd9a87;
+	}
+	100% {
+		color: #E95D38;
+	}
+}

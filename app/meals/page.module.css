@@ -1,0 +1,24 @@
+.link {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #ddd6cb;
+	background: linear-gradient(90deg, #f9572a, #ff8a05);
+	padding: 10px;
+	border-radius: 12px;
+	font-size: 30px;
+}
+
+.title {
+	color: #ddd6cb;
+}
+
+.spanTitle {
+	background: linear-gradient(90deg, #f9572a, #ff8a05);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+	color: #ddd6cb;
+}

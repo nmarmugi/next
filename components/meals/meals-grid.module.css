@@ -1,0 +1,8 @@
+.containerMeals {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}

@@ -1,0 +1,32 @@
+.containerHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.linkHome {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.navbar {
+	display: flex;
+	gap: 30px;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: all 0.35s ease;
+}
+
+.link:hover {
+	color: orange;
+	text-shadow: 3px 3px 20px orange;
+}
+
+.active {
+	color: orange;
+}
